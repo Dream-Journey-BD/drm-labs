@@ -1,0 +1,6 @@
+{
+  "name": "DRM Labs",
+  "description": "Professional ClearKey DRM stream packaging, multi-format player, IPTV analyzer & live DRM inspector.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

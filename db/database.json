@@ -1,0 +1,110 @@
+[
+  {
+    "id": "sample-720p-action-clip-5216",
+    "originalName": "test-stream-3.mp4",
+    "customName": "Sample 720p Action Clip",
+    "videoCodec": "h264",
+    "hasAudio": false,
+    "createdAt": "2026-09-29T06:27:24.963Z",
+    "fileSizeBytes": 53566,
+    "mpdUrl": "/streams/sample-720p-action-clip-5216/stream.mpd",
+    "hlsUrl": "",
+    "licenseUrl": "/api/clearkey-license",
+    "status": "ready",
+    "keys": {
+      "kidHex": "445566778899aabbccddeeff00112233",
+      "keyHex": "33221100ffeeddccbbaa998877665544",
+      "kidUuid": "44556677-8899-aabb-ccdd-eeff00112233",
+      "kidBase64": "RFVmd4iZqrvM3e7/ABEiMw==",
+      "keyBase64": "MyIRAP/u3cy7qpmId2ZVRA==",
+      "kidBase64Url": "RFVmd4iZqrvM3e7_ABEiMw",
+      "keyBase64Url": "MyIRAP_u3cy7qpmId2ZVRA",
+      "clearkeyDrmUuid": "e2719d58-a985-b3c9-781a-b030af78d30e",
+      "w3cSystemId": "1077efec-c0b2-4d02-ace3-3c1e52e2fb4b",
+      "widevineUuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed",
+      "playreadyUuid": "9a04f079-9840-4286-ab92-e65be0885f95",
+      "clearkeyLicensePath": "/api/clearkey-license"
+    },
+    "files": [
+      "stream.mpd",
+      "video_1.m4s",
+      "video_init.mp4"
+    ]
+  },
+  {
+    "id": "multi-bitrate-drm-test-9303",
+    "originalName": "test-stream-2.mp4",
+    "customName": "Multi Bitrate DRM Test",
+    "videoCodec": "h264",
+    "hasAudio": true,
+    "createdAt": "2026-09-29T06:27:10.074Z",
+    "fileSizeBytes": 82220,
+    "mpdUrl": "/streams/multi-bitrate-drm-test-9303/stream.mpd",
+    "hlsUrl": "/streams/multi-bitrate-drm-test-9303/master.m3u8",
+    "licenseUrl": "/api/clearkey-license",
+    "status": "ready",
+    "keys": {
+      "kidHex": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+      "keyHex": "09f8e7d6c5b4a39281706f5e4d3c2b1a",
+      "kidUuid": "a1b2c3d4-e5f6-0718-293a-4b5c6d7e8f90",
+      "kidBase64": "obLD1OX2BxgpOktcbX6PkA==",
+      "keyBase64": "Cfjn1sW0o5KBcG9eTTwrGg==",
+      "kidBase64Url": "obLD1OX2BxgpOktcbX6PkA",
+      "keyBase64Url": "Cfjn1sW0o5KBcG9eTTwrGg",
+      "clearkeyDrmUuid": "e2719d58-a985-b3c9-781a-b030af78d30e",
+      "w3cSystemId": "1077efec-c0b2-4d02-ace3-3c1e52e2fb4b",
+      "widevineUuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed",
+      "playreadyUuid": "9a04f079-9840-4286-ab92-e65be0885f95",
+      "clearkeyLicensePath": "/api/clearkey-license"
+    },
+    "files": [
+      "audio.m3u8",
+      "audio_1.m4s",
+      "audio_init.mp4",
+      "master.m3u8",
+      "stream.mpd",
+      "video.m3u8",
+      "video_1.m4s",
+      "video_init.mp4"
+    ]
+  },
+  {
+    "id": "sample-drm-stream-with-a-5657",
+    "originalName": "sample-audio-video-test.mp4",
+    "customName": "Sample DRM Stream (With Au",
+    "videoCodec": "h264",
+    "hasAudio": true,
+    "createdAt": "2026-09-29T06:22:24.708Z",
+    "fileSizeBytes": 834563,
+    "mpdUrl": "/streams/sample-drm-stream-with-a-5657/stream.mpd",
+    "hlsUrl": "/streams/sample-drm-stream-with-a-5657/master.m3u8",
+    "licenseUrl": "/api/clearkey-license",
+    "status": "ready",
+    "keys": {
+      "kidHex": "00112233445566778899aabbccddeeff",
+      "keyHex": "ffeeddccbbaa99887766554433221100",
+      "kidUuid": "00112233-4455-6677-8899-aabbccddeeff",
+      "kidBase64": "ABEiM0RVZneImaq7zN3u/w==",
+      "keyBase64": "/+7dzLuqmYh3ZlVEMyIRAA==",
+      "kidBase64Url": "ABEiM0RVZneImaq7zN3u_w",
+      "keyBase64Url": "_-7dzLuqmYh3ZlVEMyIRAA",
+      "clearkeyDrmUuid": "e2719d58-a985-b3c9-781a-b030af78d30e",
+      "w3cSystemId": "1077efec-c0b2-4d02-ace3-3c1e52e2fb4b",
+      "widevineUuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed",
+      "playreadyUuid": "9a04f079-9840-4286-ab92-e65be0885f95",
+      "clearkeyLicensePath": "/api/clearkey-license"
+    },
+    "files": [
+      "audio.m3u8",
+      "audio_1.m4s",
+      "audio_2.m4s",
+      "audio_init.mp4",
+      "master.m3u8",
+      "stream.mpd",
+      "video.m3u8",
+      "video_1.m4s",
+      "video_2.m4s",
+      "video_init.mp4"
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Vibrant Brand Gradient (Indigo to Cyan) -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <!-- Key & Glow Gradient -->
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <!-- Soft Ambient Glow Filter -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Base Frame -->
+  <rect x="4" y="4" width="120" height="120" rx="32" fill="url(#bgGrad)" />
+  <rect x="4" y="4" width="120" height="120" rx="32" stroke="#1e293b" stroke-width="2" />
+  <rect x="6" y="6" width="116" height="116" rx="30" stroke="url(#brandGrad)" stroke-width="1.2" stroke-opacity="0.3" />
+
+  <!-- Vault Shield Silhouette -->
+  <path
+    d="M64 22 L94 34 V60 C94 80 81 97 64 104 C47 97 34 80 34 60 V34 Z"
+    fill="#0f172a"
+    stroke="#334155"
+    stroke-width="2"
+  />
+
+  <!-- Subtle Shield Inner Highlight -->
+  <path
+    d="M64 25 L91 36 V59 C91 77 79 93 64 100 C49 93 37 77 37 59 V36 Z"
+    stroke="url(#brandGrad)"
+    stroke-width="1.5"
+    stroke-opacity="0.45"
+    fill="none"
+  />
+
+  <!-- Play Symbol / Media Stream Core -->
+  <path
+    d="M54 44.5 C54 42.8 55.9 41.7 57.4 42.6 L78.8 54.8 C80.3 55.6 80.3 57.8 78.8 58.7 L57.4 70.9 C55.9 71.7 54 70.7 54 68.9 Z"
+    fill="url(#brandGrad)"
+    filter="url(#softGlow)"
+  />
+
+  <!-- Keyhole / DRM Vault Security Notch in the center -->
+  <circle cx="64" cy="56.5" r="4.2" fill="#090d16" />
+  <path d="M62.6 57.5 L61.5 67 H66.5 L65.4 57.5 Z" fill="#090d16" />
+
+  <!-- Broadcast Signal Waves on Right -->
+  <path
+    d="M97 42 C103 48 103 64 97 70"
+    stroke="url(#glowGrad)"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+  <path
+    d="M104 35 C112 43.5 112 72.5 104 81"
+    stroke="#6366f1"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-opacity="0.8"
+  />
+</svg>

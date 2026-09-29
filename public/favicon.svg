@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="favBrandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="#090d16" />
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Shield -->
+  <path
+    d="M32 10 L48 16 V31 C48 42 41 50 32 54 C23 50 16 42 16 31 V16 Z"
+    fill="#0f172a"
+    stroke="url(#favBrandGrad)"
+    stroke-width="1.5"
+  />
+
+  <!-- Play Glyph -->
+  <path
+    d="M27 22 C27 21 28 20.4 29 21 L39 27 C40 27.6 40 28.8 39 29.4 L29 35.4 C28 36 27 35.4 27 34.4 Z"
+    fill="url(#favBrandGrad)"
+  />
+
+  <!-- Signal wave -->
+  <path
+    d="M50 22 C53 25 53 35 50 38"
+    stroke="#38bdf8"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+</svg>
