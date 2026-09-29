@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="public/logo.svg" width="80" height="80" alt="DRM Labs Logo" />
+  <img src="public/banner.png" width="100%" alt="DRM Labs Banner" />
 </p>
-
-<h1 align="center">🛡️ DRM Labs</h1>
 
 <p align="center">
   <strong>⚡ ClearKey DRM Packaging Suite 🎬 Multi-Format Video Player 📡 IPTV Analyzer 🕵️ Live DRM Inspector</strong>
